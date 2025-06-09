@@ -1,0 +1,90 @@
+[
+    {
+        "icon": "reasonable_rates",
+        "en" : {
+            "heading" : "Reasonable\nRates",
+            "text" : "Get World Class Diagnostic and Pathology healthcare services at affordable prices"
+        },
+        "mr" : {
+            "heading" : "वाजवी\nदर",
+            "text" : "परवडणाऱ्या किमतीत जागतिक दर्जाच्या निदान आणि पॅथॉलॉजी आरोग्य सेवा मिळवा"
+        }
+    },
+    {
+        "icon": "ct_scan",
+        "en" : {
+            "heading" : "No-Cost Advanced\nCT Scan",
+            "text" : "The most advanced CT scan technology is now available at our center, completely free"
+        },
+        "mr" : {
+            "heading" : "मोफत औद्योगिक\nसीटी स्कॅन",
+            "text" : "आमच्या केंद्रात आता सर्वात औद्योगिक सीटी स्कॅन तंत्रज्ञान पूर्णपणे मोफत उपलब्ध आहे."
+        }
+    },
+    {
+        "icon": "x_ray",
+        "en" : {
+            "heading" : "State-of-the-Art\nX-ray Unit",
+            "text" : "Experience world-class X-ray imaging with our state-of-the-art machine at our center"
+        },
+        "mr" : {
+            "heading" : "अत्याधुनिक\nएक्स-रे युनिट",
+            "text" : "आमच्या केंद्रात उपलब्ध असलेल्या अत्याधुनिक मशीनसह जागतिक दर्जाच्या एक्स-रे इमेजिंगचा अनुभव घ्या."
+        }
+    },
+    {
+        "icon": "lab_results",
+        "en" : {
+            "heading" : "Trusted and Precise\nLab Results",
+            "text" : "Our trusted pathology labs use the latest technology to provide accurate test results"
+        },
+        "mr" : {
+            "heading" : "विश्वसनीय आणि अचूक\nलॅब निष्कर्ष",
+            "text" : "आमच्या विश्वासार्ह पॅथॉलॉजी लॅब अचूक चाचणी निकाल देण्यासाठी नवीनतम तंत्रज्ञानाचा वापर करतात."
+        }
+    },
+    {
+        "icon": "ultrasound",
+        "en" : {
+            "heading" : "Best-in-Class\nUltrasound",
+            "text" : "We use advanced ultrasound technology to deliver accurate and reliable diagnostic results"
+        },
+        "mr" : {
+            "heading" : "सर्वोत्तम श्रेणी\nअल्ट्रासाऊंड",
+            "text" : "विश्वसनीय निदान परिणाम देण्यासाठी आम्ही अत्याधुनिक सोनोग्राफी आणि अल्ट्रासाऊंड तंत्रज्ञानाचा वापर करतो."
+        }
+    },
+    {
+        "icon": "equipment",
+        "en" : {
+            "heading" : "Free Equipment\nAssitance",
+            "text" : "We offer free wheelchairs and other essential medical equipment at no cost"
+        },
+        "mr" : {
+            "heading" : "मोफत साधनसामुग्री\nसहाय्य", 
+            "text" : "आम्ही आमच्या रुग्णांना मोफत व्हीलचेअर आणि इतर आवश्यक वैद्यकीय साधनसामुग्री मोफत देतो."
+        }
+    },
+    {
+        "icon": "reports",
+        "en" : {
+            "heading" : "Prompt and Accurate\nReport Delivery",
+            "text" : "Experience timely and precise reporting, powered by our advanced diagnostic technology"
+        },
+        "mr" : {
+            "heading" : "जलद आणि अचूक \nरिपोर्ट निर्मिती",
+            "text" : "आमच्या अत्याधुनिक निदान तंत्रज्ञानाद्वारे समर्थित, वेळेवर आणि अचूक रिपोर्ट देण्याचा अनुभव घ्या"
+        }
+    },
+    {
+        "icon": "doctors",
+        "en" : {
+            "heading" : "Get Expert\nConsulation",
+            "text" : "We collaborate with skilled doctors to ensure you receive expert guidance and support"
+        },
+        "mr" : {
+            "heading" : "तज्ञांचा सल्ला\nघ्या",
+            "text" : "तुम्हाला तज्ञ मार्गदर्शन आणि पाठिंबा मिळावा यासाठी आम्ही कुशल डॉक्टरांशी सहयोग करतो."
+        }
+    }
+]

@@ -1,0 +1,495 @@
+.containerTopBar {
+    width: 100%;
+    height: 1.6rem;
+    background-color: var(--primary-color);
+}
+
+.containerNavBar {
+    width: 100%;
+    height: 3.5rem;
+    background-color: var(--card-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 3vw;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.switch {
+    position: relative;
+    left: auto;
+    right: 5vw;
+    float: right;
+    padding: 2 5;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    display: inline-flex;
+    /* or flex */
+    align-items: center;
+    /* vertical center */
+    justify-content: center;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.landingPage {
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 3vw 0;
+}
+
+.LPImages {
+    flex: 2;
+    position: relative;
+    width: 34.5vw;
+    height: 34.5vw;
+}
+
+.welcomeText {
+    flex: 6;
+}
+
+.landingPageImage {
+    flex: 1 1 50%;
+    aspect-ratio: 1/1;
+    background-color: var(--card-color);
+    object-fit: cover;
+    border-radius: var(--border-radius-40);
+    box-shadow: 0px 0px 4px 2px rgba(89, 69, 3, 0.5);
+    overflow: hidden;
+}
+
+.image1 {
+    position: absolute;
+    width: 100%;
+    top: 33%;
+    right: 50%;
+    z-index: 2;
+    /* transform:translate(25%,25%); */
+}
+
+.image2 {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+    /* transform: translate(-25%,-25%); */
+}
+
+.section {
+    margin-bottom: 3vw;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: stretch;
+}
+
+.aboutText {
+    flex: 2;
+}
+
+.aboutImg {
+    flex: 1;
+    border-radius: var(--border-radius-20);
+    background-color: var(--card-color);
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .aboutImg img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-20);
+} */
+
+.whyUsFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5vw 3vw;
+}
+
+.whyUsCard {
+    align-items: center;
+    width: 20vw;
+    min-width: 250px;
+    text-align: center;
+    background-color: var(--card-color);
+    padding: 2vw;
+    border-radius: var(--border-radius-20);
+    box-shadow: 0px 0px 4px 0px rgba(89, 69, 3, 0.3);
+    ;
+}
+
+.whyUsIcon {
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1/1;
+    width: 40%;
+    color: var(--primary-color);
+}
+
+.whyUsHeading {
+    color: var(--primary-color);
+    margin-bottom: 0.6vw;
+}
+
+.hideNavbar {
+    transform: translateY(-100%);
+}
+
+.whyUsText {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 2vw 2vw;
+}
+
+.serviceCard {
+    width: calc(0.3333*(100% - 4vw));
+    min-width: 400;
+    padding: 1.04vw;
+    background-color: var(--card-color);
+    border-radius: var(--border-radius-20);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceImage {
+    position: relative;
+    aspect-ratio: 2.01;
+    width: 100%;
+    border-radius: calc(0.5*var(--border-radius-20));
+    object-fit: cover;
+    margin-bottom: 10px;
+    background-color: var(--card-color);
+    overflow: hidden;
+}
+
+.carouselWrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.carouselTrack {
+    display: flex;
+    gap: 2rem;
+    width: 200%;
+    /* white-space: nowrap; */
+    scroll-behavior: auto;
+}
+
+.carouselImage {
+    display: inline-block;
+    min-width: 15rem;
+    width: 15rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: calc(0.5*var(--border-radius-20));
+    background-color: var(--card-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.fullSection {
+    width: 100%;
+    margin-bottom: 3vw;
+}
+
+.fullSection .sectionHeading {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonialTrack {
+    align-items: stretch;
+    display: flex;
+    width: 200%;
+    scroll-behavior: auto;
+}
+
+.testimonialCard {
+    flex: 1;
+    background-color: var(--card-color);
+    border-radius: calc(0.5*var(--border-radius-20));
+    padding: 1rem;
+    min-width: 30rem;
+    width: 30rem;
+    margin-left: 1.25rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    margin-bottom: 0;
+}
+
+.footerDeclarationText {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+.footerMainContent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    width: 90%;
+    gap: 2vw;
+    margin: auto;
+    padding-top: 3vw;
+    margin-bottom: 2vw;
+    color: white;
+}
+
+.footerContactInfo {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.footerIframe {
+    flex: 1;
+}
+
+.footerRow1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+    white-space: pre-line;
+}
+
+.footerRow2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    white-space: pre-line;
+}
+
+.footerBrand {
+    align-self: self-end;
+    width: 70%;
+    flex: 2
+}
+
+.rowSection1 {
+    width: 30%;
+}
+
+.rowSection2 {
+    width: 30%;
+}
+
+.footerLogo {
+    aspect-ratio: 1/1;
+    width: 4.5rem;
+    background-color: var(--card-color);
+}
+
+.readMore {
+    display: none;
+}
+
+@media only screen and (max-width :600px) {
+
+
+    .switch {
+        padding: 1 3;
+    }
+
+    .containerNavBar {
+        height: auto;
+    }
+
+    .landingPage {
+        padding: 10vw 0;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .welcomeText {
+        width: 100%;
+        flex: 1 1 100%;
+        /* text */
+    }
+
+    .LPImages {
+        display: block;
+        width: 75vw;
+        height: 75vw;
+        aspect-ratio: 1;
+        flex: none;
+        margin-left: auto;
+        /* margin-right: auto; */
+    }
+
+    .image1 {
+        position: absolute;
+        width: 66%;
+        top: 33%;
+        right: 33%;
+        z-index: 2;
+        /* transform:translate(25%,25%); */
+    }
+
+    .image2 {
+        position: absolute;
+        width: 66%;
+        right: 0;
+        top: 0;
+        /* transform: translate(-25%,-25%); */
+    }
+
+    .aboutUs {
+        flex-direction: column-reverse;
+    }
+
+    .aboutText {
+        max-height: 8.4rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    /* .clamped{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 6;
+        line-clamp: 6;
+    } */
+    .unclamped {
+        max-height: none;
+    }
+
+    .aboutImg {
+        aspect-ratio: 2/1;
+        width: 100%;
+    }
+
+    .readMore {
+        display: block;
+        margin-left: auto;
+        border: none;
+        background-color: transparent;
+        font-size: 1.2rem;
+        margin-top: 3;
+    }
+
+    .whyUsFlex {
+        gap: 4vw;
+    }
+
+    .whyUsCard {
+        align-items: center;
+        width: 43vw;
+        min-width: 0;
+        text-align: center;
+        background-color: var(--card-color);
+        padding: 2vw;
+        border-radius: var(--border-radius-20);
+        box-shadow: 0px 0px 4px 0px rgba(89, 69, 3, 0.3);
+    }
+
+    .whyUsIcon {
+        width: 12vw;
+    }
+
+    .section {
+        margin-bottom: 8vw;
+    }
+
+    .serviceCard {
+        flex-direction: row;
+        align-items: stretch;
+        width: 90vw;
+        gap: 2vw;
+        min-width: 90vw;
+        padding: 3vw;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .serviceImage {
+        flex: 2;
+        margin-bottom: 0;
+    }
+
+    .serviceTextDiv {
+        flex: 3;
+    }
+
+    .carouselImage{
+        border-radius: var(--border-radius-20);
+    }
+
+    .fullSection{
+        margin-bottom: 8vw;
+    }
+
+    .testimonialCard{
+        width: 90vw;
+        min-width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .rowSection1{
+        width: 100%;
+    }
+    .rowSection2{
+        width: 100%;
+    }
+    .footer{
+        margin-bottom: 0;
+    }
+    .footerRow1{
+        gap: 4vw;
+    }
+    .footerRow2{
+        gap: 4vw;
+    }
+}

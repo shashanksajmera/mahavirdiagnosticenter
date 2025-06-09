@@ -1,0 +1,105 @@
+.langEn {
+    --scale-factor: 1;
+}
+
+.langMr {
+    --scale-factor: 1.15;
+}
+
+.fontSizeSmall {
+    font-size: calc(0.8rem*var(--scale-factor));
+}
+
+.fontSize16 {
+    font-size: calc(0.9rem*var(--scale-factor));
+}
+
+.fontSize20 {
+    font-size: calc(1rem*var(--scale-factor));
+}
+
+.fontSize24 {
+    font-size: calc(1.2rem*var(--scale-factor));
+}
+
+.fontSize60 {
+    font-size: calc(2.5rem*var(--scale-factor));
+    font-weight: 500;
+}
+
+.fontSize72 {
+    font-size: calc(3.6rem*var(--scale-factor));
+    color: var(--primary-color);
+    white-space: pre-line;
+}
+
+.fontSize32 {
+    font-size: calc(1.4rem*var(--scale-factor));
+    white-space: pre-line;
+}
+
+.fontSize36 {
+    font-size: calc(1.6rem*var(--scale-factor));
+    white-space: pre-line;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.sectionHeading {
+    margin-bottom: 2vw;
+}
+
+.textMr300 {
+    font-weight: 300;
+}
+
+.testimonialAuthor {
+    margin-top: 1vw;
+    text-align: right;
+}
+
+@media only screen and (max-width :600px) {
+    .navbarLink {
+        font-size: 1.2rem;
+    }
+
+    .fontSize16 {
+        font-size: calc(0.8rem*var(--scale-factor));
+    }
+
+    .fontSize20 {
+        font-size: calc(0.9rem*var(--scale-factor));
+    }
+
+    .fontSize72 {
+        font-size: calc(2.5rem*var(--scale-factor));
+    }
+
+    .fontSize60 {
+        font-size: calc(1.8rem*var(--scale-factor));
+    }
+
+    .fontSize36 {
+        font-size: calc(1.2rem*var(--scale-factor));
+    }
+
+    .fontSize32 {
+        font-size: calc(1.15rem*var(--scale-factor));
+    }
+
+    .sectionHeading {
+        margin-bottom: 6vw;
+        font-size: calc(1.2rem*var(--scale-factor));
+    }
+
+    .footerTextMobile{
+        font-size: 1.2rem;
+    }
+
+    .footerBrandText{
+        font-size: 1.5rem;
+    }
+}
