@@ -6,7 +6,8 @@ const nextConfig = {
     unoptimized: true, // disable Image Optimization (required for export)
   },
   distDir: "docs",
-  basePath: '/mahavirdiagnosticcenter', // REQUIRED if hosting from a repo sub-path
+  basePath: '/mahavirdiagnosticcenter',
+  assetPrefix: `/mahavirdiagnosticcenter`, // REQUIRED if hosting from a repo sub-path
 };
 
 module.exports = nextConfig;
