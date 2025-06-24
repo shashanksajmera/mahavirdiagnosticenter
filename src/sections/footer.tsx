@@ -1,7 +1,7 @@
 import containerStyles from "@/styles/container.module.css"
 import MultilingualText from "@/components/text";
 import fontStyles from "@/styles/text.module.css";
-import Image from "next/image";
+// import Image from "next/image";
 export default function Footer() {
     return (
         <footer className={`${containerStyles.fullSection} ${containerStyles.footer}`} id="contact">
