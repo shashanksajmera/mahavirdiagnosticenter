@@ -29,7 +29,7 @@ export default function Footer() {
                     <div className={containerStyles.footerRow2}>
                         <div className={containerStyles.footerBrand}>
                             <div className={containerStyles.footerLogo}>
-                            <Image src="" alt="Logo" fill={true} sizes="100%" style={{objectFit:"cover"}}/>
+                            {/* <Image src="" alt="Logo" fill={true} sizes="100%" style={{objectFit:"cover"}}/> */}
                             </div>
                             <MultilingualText englishText={"Mahavir Diagnostic Center"} marathiText={"महावीर डायग्नोस्टिक सेंटर"} fontSizeClass={fontStyles.fontSize36} className={fontStyles.footerBrandText} isHeading={true}     />                 
                         </div>
