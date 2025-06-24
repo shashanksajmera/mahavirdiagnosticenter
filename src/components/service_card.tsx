@@ -1,5 +1,4 @@
 import MultilingualText from "@/components/text"
-import { useLanguage } from "@/context/language_context";
 import containerStyles from "@/styles/container.module.css"
 import fontStyles from "@/styles/text.module.css"
 import Image from "next/image";

@@ -7,7 +7,7 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 export default function AboutUs() {
     const ref = useRef<HTMLDivElement>(null);
-    let [isExpanded, setExpanded] = useState(false);
+    const [isExpanded, setExpanded] = useState(false);
     useEffect(() => {
         if (typeof window === "undefined") return;
         const width = window.innerWidth;

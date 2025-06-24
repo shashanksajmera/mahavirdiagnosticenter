@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true, // disable Image Optimization (required for export)
+  },
+  basePath: '/mahavirdiagnosticcenter', // REQUIRED if hosting from a repo sub-path
 };
 
-export default nextConfig;
+module.exports = nextConfig;

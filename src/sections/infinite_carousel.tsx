@@ -2,7 +2,7 @@ import SectionHeading from "@/components/section_headline";
 import containerStyles from "@/styles/container.module.css"
 import Image from "next/image";
 import { useEffect, useRef } from "react";
-var images: string[] = [
+const images: string[] = [
   "/assets/carousel/image1.jpg",
   "/assets/carousel/image2.jpg",
   "/assets/carousel/image3.jpg",

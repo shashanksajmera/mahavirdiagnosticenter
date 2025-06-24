@@ -3,7 +3,7 @@ import TestimonialCard, { Testimonial } from "@/components/testimonial_card";
 import containerStyles from "@/styles/container.module.css"
 import { useEffect, useRef, useState } from "react";
 export default function Testimonials() {
-    var [testimonials, setData] = useState<Testimonial[]>();
+    const [testimonials, setData] = useState<Testimonial[]>();
     const scrollRef = useRef<HTMLDivElement>(null);
     const cardRef = useRef<HTMLDivElement>(null);
     useEffect(() => {
@@ -13,9 +13,9 @@ export default function Testimonials() {
                 const text = await res.text();
 
                 const lines = text.trim().split('\n');
-                var data: Testimonial[] = [];
-                for (var i = 1; i < lines.length; i++) {
-                    var parts = lines[i].split("/,/");
+                const data: Testimonial[] = [];
+                for (let i = 1; i < lines.length; i++) {
+                    const parts = lines[i].split("/,/");
                     if (parts.length != 4) {
                         throw new Error("CSV File not Formatted Correctly");
                     }

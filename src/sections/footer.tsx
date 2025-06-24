@@ -1,6 +1,7 @@
 import containerStyles from "@/styles/container.module.css"
 import MultilingualText from "@/components/text";
-import fontStyles from "@/styles/text.module.css"
+import fontStyles from "@/styles/text.module.css";
+import Image from "next/image";
 export default function Footer() {
     return (
         <footer className={`${containerStyles.fullSection} ${containerStyles.footer}`} id="contact">
@@ -27,7 +28,9 @@ export default function Footer() {
                     </div>
                     <div className={containerStyles.footerRow2}>
                         <div className={containerStyles.footerBrand}>
-                            <img className={containerStyles.footerLogo}/>
+                            <div className={containerStyles.footerLogo}>
+                            <Image src="" alt="Logo" fill={true} sizes="100%" style={{objectFit:"cover"}}/>
+                            </div>
                             <MultilingualText englishText={"Mahavir Diagnostic Center"} marathiText={"महावीर डायग्नोस्टिक सेंटर"} fontSizeClass={fontStyles.fontSize36} className={fontStyles.footerBrandText} isHeading={true}     />                 
                         </div>
                         <div className={containerStyles.rowSection2}>

@@ -20,7 +20,7 @@ export default function WhyUsCard({card} : {card:WhyUsCardModel}){
         fetch(`/icons/${card.icon}.svg`)
         .then((res)=>res.text())
         .then((text)=>setSvg(text));
-    },[])
+    },[card])
     return (
         <div className={containerStyles.whyUsCard}>
             <div className={containerStyles.whyUsIcon} dangerouslySetInnerHTML={{__html: svg}}></div>
