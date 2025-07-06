@@ -21,13 +21,6 @@ export default function LandingPage() {
                     className=""
                     as="h1"
                 />
-                <MultilingualText
-                    englishText=" Lorem ipsum dolor sit"
-                    marathiText="लॉरेम इप्सम डोलर सिट"
-                    fontSizeClass={`${fontStyles.fontSize36}`}
-                    className={`${fontStyles.italic}`}
-                    as="p"
-                />
             </div>
             <div className={containerStyles.LPImages}>
                 <div className={`${containerStyles.landingPageImage} ${containerStyles.image1}`}>

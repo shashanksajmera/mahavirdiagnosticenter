@@ -1,7 +1,7 @@
 import containerStyles from "@/styles/container.module.css"
 import MultilingualText from "@/components/text";
 import fontStyles from "@/styles/text.module.css";
-// import Image from "next/image";
+import Image from "next/image";
 export default function Footer() {
     return (
         <footer className={`${containerStyles.fullSection} ${containerStyles.footer}`} id="contact">
@@ -10,13 +10,13 @@ export default function Footer() {
                     <div className={containerStyles.footerRow1}>
                       <div className={containerStyles.rowSection1}>
                         <MultilingualText englishText={"Get in Touch"} marathiText={"संपर्कात रहा"} fontSizeClass={fontStyles.fontSize24} className={fontStyles.footerTextMobile}/>  
-                        <MultilingualText englishText={"+91 99999 99999"} marathiText={"+९१ ९९९९९ ९९९९९"} fontSizeClass={fontStyles.fontSize16} className={fontStyles.footerTextMobile}/>
+                        <MultilingualText englishText={"+91 90674 28000"} marathiText={"+९१ ९०६७४ २८०००"} fontSizeClass={fontStyles.fontSize16} className={fontStyles.footerTextMobile}/>
                         <MultilingualText englishText={"mahaviraurangabad@gmail.com"} marathiText={"mahaviraurangabad@gmail.com"} fontSizeClass={fontStyles.fontSize16} className={fontStyles.footerTextMobile}/>
 
                         </div>
                       <div className={containerStyles.rowSection1}>
                         <MultilingualText englishText={"Support Us"} marathiText={"आम्हाला मदत करा"} fontSizeClass={fontStyles.fontSize24} className={fontStyles.footerTextMobile}/>  
-                        <MultilingualText englishText={"+91 99999 99999"} marathiText={"+९१ ९९९९९ ९९९९९"} fontSizeClass={fontStyles.fontSize16} className={fontStyles.footerTextMobile}/>
+                        <MultilingualText englishText={"+91 90674 28000"} marathiText={"+९१ ९०६७४ २८०००"} fontSizeClass={fontStyles.fontSize16} className={fontStyles.footerTextMobile}/>
                         <MultilingualText englishText={"mahaviraurangabad@gmail.com"} marathiText={"mahaviraurangabad@gmail.com"} fontSizeClass={fontStyles.fontSize16} className={fontStyles.footerTextMobile}/>
 
                     </div>
@@ -29,7 +29,7 @@ export default function Footer() {
                     <div className={containerStyles.footerRow2}>
                         <div className={containerStyles.footerBrand}>
                             <div className={containerStyles.footerLogo}>
-                            {/* <Image src="" alt="Logo" fill={true} sizes="100%" style={{objectFit:"cover"}}/> */}
+                            <Image src="/logo.png" alt="Logo" fill={true} sizes="100%" style={{objectFit:"cover"}}/>
                             </div>
                             <MultilingualText englishText={"Mahavir Diagnostic Center"} marathiText={"महावीर डायग्नोस्टिक सेंटर"} fontSizeClass={fontStyles.fontSize36} className={fontStyles.footerBrandText} isHeading={true}     />                 
                         </div>

@@ -65,7 +65,7 @@ export default function Navbar() {
     <div className={`${containerStyles.containerNavBar} ${navState.show ? '' : containerStyles.hideNavbar}`}>
       <nav className={navbarStyles.navbar}>
         <div className={navbarStyles.navbarBrand}>
-          <div className={navbarStyles.navbarLogo}></div>
+          <img className={navbarStyles.navbarLogo} src="/logo.png" alt="Logo" />
           <MultilingualText
             englishText="Mahavir Diagnostic Center"
             marathiText="महावीर डायग्नोस्टिक सेंटर"

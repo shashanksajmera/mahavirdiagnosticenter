@@ -11,26 +11,27 @@ export default function AboutUs() {
     useEffect(() => {
         if (typeof window === "undefined") return;
         const width = window.innerWidth;
-        if(width < 600){
-        if (ref.current == null) {
-            return;
+        console.log("Width: ", width);
+        if (width < 600) {
+            if (ref.current == null) {
+                return;
+            }
+            if (isExpanded) {
+                ref.current.style.maxHeight = "none"
+            }
+            else {
+                ref.current.style.maxHeight = "8.4rem"
+            }
         }
-        if (isExpanded) {
-            ref.current.style.maxHeight = "none"
-        }
-        else {
-            ref.current.style.maxHeight = "8.4rem"
-        }
-    }
     }, [isExpanded])
     return (
         <div className={containerStyles.section} id="about">
             <SectionHeading headingEn="Who We Are" headingMr="आमची ओळख" />
             <div className={containerStyles.aboutUs}>
-                <div ref={ref} className={`${containerStyles.aboutText} ${isExpanded ? containerStyles.unclamped : containerStyles.clamped} `}>
+                <div ref={ref} className={`${containerStyles.aboutText}`}>
                     <MultilingualText
-                        englishText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tellus velit, ornare sed nisi sed, efficitur vulputate lacus. Donec eleifend, elit sed dignissim feugiat, risus lacus varius nisi, eget feugiat leo est et sapien. Proin nibh enim, pellentesque quis rhoncus in, pulvinar vitae sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut orci lectus, eleifend id egestas a, cursus aliquam lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean a consectetur velit. Pellentesque pellentesque dictum lorem eget commodo. Duis non suscipit massa, sit amet pretium quam. Quisque convallis ligula eu mi mattis, vel dictum odio sagittis. Nam congue sem eu faucibus eleifend. Aliquam id ipsum nec nibh vestibulum gravida. Praesent porta congue lectus. Vivamus volutpat turpis urna, vel tristique "}
-                        marathiText={"लोरेम इप्सम डलर सीत अमेत, कन्सेक्टेटर अॅडिपिसिंग एलिट. सेड टेलस वेळीत, ओरणारे सेड निसी सेड, एफिसिटर वुल्पुटते लाकस. डोनेक एलीफेंड, एलिट सेड डिग्निसिम फ्युगियात, रिसस लाकस व्हेरियस निसी, एगेट फ्युगियात लिओ इएसटी ईटी सॅपियन. प्रोईन निभ एनिम, पेलेंटेस्क क्विस र्होंकस आयएन, पुलविणार विटे सॅपियन. वेस्टिब्युलम अंते इप्सम प्रिमिस आयएन फॉसिबस ओआरसीआय लक्टस ईटी अल्ट्रिसेस पोसुएरे क्युबिलिया क्यूरे; उत ओआरसीआय लेक्टस, एलीफेंड आयडी इजेस्टस ए, कर्सस अलिक्यूम लेक्टस. पेलेंटेस्क हॅबिटंट मोरबी ट्रिस्टीक सेनेक्टस ईटी नेटस ईटी मलेसुआडा फेम्स एसी टर्पिस इजेस्टस. लोरेम इप्सम डलर सीत अमेत, कन्सेक्टेटर अॅडिपिसिंग एलिट. सेड टेलस वेळीत, ओरणारे सेड निसी सेड, एफिसिटर वुल्पुटते लाकस. डोनेक एलीफेंड, एलिट सेड डिग्निसिम फ्युगियात, रिसस लाकस व्हेरियस निसी, एगेट फ्युगियात लिओ इएसटी ईटी सॅपियन. प्रोईन निभ एनिम, पेलेंटेस्क क्विस र्होंकस आयएन, पुलविणार विटे सॅपियन. वेस्टिब्युलम अंते इप्सम प्रिमिस आयएन फॉसिबस "}
+                        englishText={"Mahavir Diagnostic Center, run by Mahavir Eye Foundation in Chhatrapati Sambhajinagar, is a no-profit, no-loss healthcare facility started in March 2020. Despite the COVID-19 pandemic, it has continued to offer affordable, quality services supported by community donations. Spread across 1800 sq. ft., the center includes a pathology lab, digital X-ray, eye check-up unit, expert consultation services, medical equipment rental, and computerized consulting rooms. It provides home sample collection, has a trained staff, and offers expert consultation services across multiple specialties, while advanced scans are outsourced. The facility is air-conditioned, well-ventilated, and equipped to handle patient needs comfortably. It stands as a trusted health center focused on service, not profit."}
+                        marathiText={"महावीर आय फाउंडेशनने छत्रपती संभाजीनगर येथे चालवलेले महावीर डायग्नोस्टिक सेंटर ही मार्च २०२० मध्ये सुरू केलेली एक ना-नफा, ना-तोटा आरोग्य सेवा सुविधा आहे. कोविड-१९ साथीच्या आजारानंतरही, ते समुदायाच्या देणग्यांद्वारे परवडणाऱ्या, दर्जेदार सेवा देत राहिले आहे. १८०० चौरस फूट क्षेत्रात पसरलेल्या या केंद्रात पॅथॉलॉजी लॅब, डिजिटल एक्स-रे, नेत्र तपासणी युनिट, तज्ञ सल्ला सेवा, वैद्यकीय उपकरणे भाड्याने देणे आणि संगणकीकृत सल्लागार कक्ष आहेत. ते घरी नमुना संकलन प्रदान करते, प्रशिक्षित कर्मचारी आहेत आणि अनेक विशेष सेवांमध्ये तज्ञ सल्ला सेवा देते, तर प्रगत स्कॅन आउटसोर्स केले जातात. ही सुविधा वातानुकूलित, हवेशीर आणि रुग्णांच्या गरजा आरामात हाताळण्यासाठी सुसज्ज आहे. ते नफ्यावर नव्हे तर सेवेवर लक्ष केंद्रित करणारे एक विश्वासार्ह आरोग्य केंद्र म्हणून उभे आहे."}
                         fontSizeClass={fontStyles.fontSize20}
                         className={(useLanguage().language == "mr" ? fontStyles.textMr300 : "")} />
                 </div>

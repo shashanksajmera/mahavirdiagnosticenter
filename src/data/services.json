@@ -13,111 +13,67 @@
     {
         "image":"service.jpg",
         "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
+            "heading" : "Health Check-up Camps",
+            "text" : "We regularly conduct health check-up camps to promote early detection and preventive care. Get expert consultations, quick tests, and personalized advice—delivered conveniently to help you stay on top of your health."
         },
         "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
+            "heading" : "आरोग्य तपासणी शिबिर",
+            "text" : "लवकर निदान आणि प्रतिबंधात्मक काळजी घेण्यास प्रोत्साहन देण्यासाठी आम्ही नियमितपणे आरोग्य तपासणी शिबिरे आयोजित करतो. तज्ञांचा सल्ला, जलद चाचण्या आणि वैयक्तिकृत सल्ला मिळवा—तुम्हाला तुमच्या आरोग्याची काळजी घेण्यास मदत करण्यासाठी सोयीस्करपणे वितरित केले जाते."
+        }
+    }, 
+    {
+        "image":"pathology-lab.jpg",
+        "en" : {
+            "heading" : "Pathology Lab",
+            "text" : "Get accurate diagnostic reports from our fully equipped pathology lab. Our expert technicians and modern technology ensure reliable results to help you manage your health with confidence and ease."
+        },
+        "mr" : {
+            "heading" : "पॅथॉलॉजी लॅब",
+            "text" : "आमच्या पूर्णपणे सुसज्ज पॅथॉलॉजी लॅबमधून अचूक निदान अहवाल मिळवा. आमचे तज्ञ तंत्रज्ञ आणि आधुनिक तंत्रज्ञान विश्वासार्ह परिणाम सुनिश्चित करतात जेणेकरून तुमचे आरोग्य आत्मविश्वासाने आणि सहजतेने व्यवस्थापित करता येईल."
+        }
+    },
+    {
+        "image":"x-ray-machine.jpg",
+        "en" : {
+            "heading" : "X-Ray Scan",
+            "text" : "Quick and precise imaging with our advanced X-ray machine. Experience seamless service from trained professionals to help detect injuries and conditions efficiently for better treatment planning."
+        },
+        "mr" : {
+            "heading" : "एक्स-रे स्कॅन",
             "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
         }
     },
     {
         "image":"service.jpg",
         "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
+            "heading" : "CT Scan",
+            "text" : "Advanced CT scanning services to give you a comprehensive view of your health. Our cutting-edge machines and skilled staff ensure high-resolution images for accurate diagnosis, fast and comfortably."
         },
         "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
+            "heading" : "सीटी स्कॅन",
+            "text" : "तुमच्या आरोग्याचे सर्वसमावेशक दृश्य देण्यासाठी प्रगत सीटी स्कॅनिंग सेवा. आमची अत्याधुनिक मशीन्स आणि कुशल कर्मचारी अचूक निदानासाठी जलद आणि आरामात उच्च-रिझोल्यूशन प्रतिमा सुनिश्चित करतात."
         }
     },
     {
-        "image":"service.jpg",
+        "image":"ecg-machine.jpg",
         "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
+            "heading" : "ECG Machine",
+            "text" : "Monitor your heart health with our high-precision ECG machines. We provide fast, painless, and accurate readings to detect heart conditions early and guide effective treatment."
         },
         "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
+            "heading" : "ईसीजी मशीन",
+            "text" : "आमच्या उच्च-परिशुद्धता असलेल्या ईसीजी मशीनद्वारे तुमच्या हृदयाच्या आरोग्याचे निरीक्षण करा. हृदयाच्या आजारांचे लवकर निदान करण्यासाठी आणि प्रभावी उपचारांसाठी आम्ही जलद, वेदनारहित आणि अचूक रीडिंग प्रदान करतो."
         }
     },
     {
-        "image":"service.jpg",
+        "image":"ultrasound.jpg",
         "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
+            "heading" : "Ultrasound",
+            "text" : "Safe, non-invasive ultrasound services for accurate internal imaging. Our skilled professionals and advanced equipment offer clarity and comfort throughout the diagnostic process."
         },
         "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
+            "heading" : "अल्ट्रासाऊंड",
+            "text" : "अचूक अंतर्गत इमेजिंगसाठी सुरक्षित, नॉन-इनवेसिव्ह अल्ट्रासाऊंड सेवा. आमचे कुशल व्यावसायिक आणि प्रगत उपकरणे संपूर्ण निदान प्रक्रियेत स्पष्टता आणि आराम देतात."
         }
-    },
-    {
-        "image":"service.jpg",
-        "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
-        },
-        "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
-        }
-    },
-    {
-        "image":"service.jpg",
-        "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
-        },
-        "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
-        }
-    },
-    {
-        "image":"service.jpg",
-        "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
-        },
-        "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
-        }
-    },
-    {
-        "image":"service.jpg",
-        "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
-        },
-        "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
-        }
-    },
-    {
-        "image":"service.jpg",
-        "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
-        },
-        "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
-        }
-    },
-    {
-        "image":"service.jpg",
-        "en" : {
-            "heading" : "Free Eye Checkup",
-            "text" : "Get a free eye check-up at our center with expert doctors and advanced technology. Quick, precise, and hassle-free with experience quality care that helps you protect and preserve your vision effortlessly."
-        },
-        "mr" : {
-            "heading" : "मोफत नेत्र तपासणी",
-            "text" : "आमच्या केंद्रात तज्ञ डॉक्टर आणि प्रगत तंत्रज्ञानासह मोफत डोळ्यांची तपासणी करा. जलद, अचूक आणि त्रासमुक्त अनुभवासह दर्जेदार काळजी जी तुम्हाला तुमची दृष्टी सहजतेने संरक्षित आणि जतन करण्यास मदत करते."
-        }
-    }    
+    }   
 ]

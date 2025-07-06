@@ -100,14 +100,14 @@
 }
 
 .aboutText {
-    flex: 2;
+    flex: 3;
 }
 
 .aboutImg {
-    flex: 1;
+    flex: 2;
     border-radius: var(--border-radius-20);
     background-color: var(--card-color);
-    width: 25%;
+    /* width: 25%; */
     position: relative;
     overflow: hidden;
 }
@@ -322,9 +322,10 @@
 }
 
 .footerLogo {
+    position: relative;
     aspect-ratio: 1/1;
     width: 4.5rem;
-    background-color: var(--card-color);
+    /* background-color: var(--card-color); */
 }
 
 .readMore {
@@ -343,7 +344,7 @@
     }
 
     .landingPage {
-        padding: 10vw 0;
+        padding: 10vw 0 5vw;
         flex-wrap: wrap;
         gap: 2rem;
     }
@@ -434,10 +435,6 @@
 
     .whyUsIcon {
         width: 12vw;
-    }
-
-    .section {
-        margin-bottom: 8vw;
     }
 
     .serviceCard {
