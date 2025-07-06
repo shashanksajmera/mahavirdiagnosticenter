@@ -17,7 +17,9 @@
 .fontSize20 {
     font-size: calc(1rem*var(--scale-factor));
 }
-
+.fontSize22{
+    font-size: calc(1.1rem*var(--scale-factor));
+}
 .fontSize24 {
     font-size: calc(1.2rem*var(--scale-factor));
 }
